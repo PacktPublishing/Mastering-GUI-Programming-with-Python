@@ -1,6 +1,6 @@
 from PyQt5 import QtWidgets
 
-app = QtWidgets.QApplication([''])
-w = QtWidgets.QWidget(windowTitle='Hello Qt')
-w.show()
+app = QtWidgets.QApplication([])
+window = QtWidgets.QWidget(windowTitle='Hello Qt')
+window.show()
 app.exec()
