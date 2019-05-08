@@ -13,7 +13,7 @@ class SlowSearcher(qtc.QObject):
 
     def __init__(self):
         super().__init__()
-        self.term = ''
+        self.term = None
 
     @qtc.pyqtSlot(str)
     def set_term(self, term):
