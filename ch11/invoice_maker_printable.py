@@ -12,7 +12,7 @@ class InvoiceForm(qtw.QWidget):
     def __init__(self):
         super().__init__()
         self.setLayout(qtw.QFormLayout())
-        self.inputs = {}
+        self.inputs = dict()
         self.inputs['Customer Name'] = qtw.QLineEdit()
         self.inputs['Customer Address'] = qtw.QPlainTextEdit()
         self.inputs['Invoice Date'] = qtw.QDateEdit(
@@ -48,7 +48,7 @@ class InvoiceForm(qtw.QWidget):
                 self.inputs['Days until Due'].value()).toString(),
             'i_terms': '{} days'.format(self.inputs['Days until Due'].value())
         }
-        data['line_items'] = []
+        data['line_items'] = list()
         for row in range(self.line_items.rowCount()):
             if not self.line_items.item(row, 0):
                 continue
