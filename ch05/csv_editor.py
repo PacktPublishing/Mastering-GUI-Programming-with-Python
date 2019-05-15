@@ -136,7 +136,7 @@ class MainWindow(qtw.QMainWindow):
 
     def save_file(self):
         if self.model:
-            self.model.save()
+            self.model.save_data()
 
     # Methods for insert/remove
 
