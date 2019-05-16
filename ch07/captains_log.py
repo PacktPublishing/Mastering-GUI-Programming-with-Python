@@ -86,7 +86,7 @@ class MainWindow(qtw.QMainWindow):
         self.camera.start()
 
         # Configure recorder
-        #self.recorder = qtmm.QMediaRecorder(self.camera)
+        self.recorder = qtmm.QMediaRecorder(self.camera)
         #settings = self.recorder.videoSettings()
         #settings.setResolution(640, 480)
         #settings.setFrameRate(24.0)
