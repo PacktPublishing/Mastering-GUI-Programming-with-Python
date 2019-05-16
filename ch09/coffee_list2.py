@@ -148,7 +148,7 @@ class MainWindow(qtw.QMainWindow):
         missing_tables = required_tables - set(db.tables())
         if missing_tables:
             qtw.QMessageBox.critical(
-                None, 'DB Integrity Error'
+                None, 'DB Integrity Error',
                 'Missing tables, please repair DB: '
                 f'{missing_tables}')
             sys.exit(1)
