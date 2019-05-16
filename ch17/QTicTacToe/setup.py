@@ -18,7 +18,7 @@ setup(
     #packages=['qtictactoe', 'qtictactoe.images'],
     packages=find_packages(),
     install_requires=['PyQt5 >= 5.12'],
-    python_requires='>=3.7',
+    python_requires='>=3.6',
     #extras_require={
     #    "NetworkPlay": ["requests"]
     #},
