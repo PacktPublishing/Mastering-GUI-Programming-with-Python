@@ -10,6 +10,13 @@ This is the code repository for [Python GUI programming with Tkinter](https://ww
 PyQt5 has long been the most powerful and comprehensive GUI framework available for Python, yet there is a lack of cohesive resources available to teach Python programmers how to use it. This book aims to remedy the problem by providing comprehensive coverage of GUI development with PyQt5. 
 
 This book covers the following exciting features:
+- Get to grips with the inner workings of PyQt5
+- Learn how elements in a GUI application communicate with signals and slots
+- Learn techniques for styling an application
+- Explore database-driven applications with the QtSQL module
+- Create 2D graphics with QPainter
+- Delve into 3D graphics with QOpenGLWidget
+- Build network and web-aware applications with QtNetwork and QtWebEngine
 
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1-789-61290-X) today!
