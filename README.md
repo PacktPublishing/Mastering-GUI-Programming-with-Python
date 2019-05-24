@@ -60,6 +60,12 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](http://www.packtpub.com/sites/default/files/downloads/9781789612905_ColorImages.pdf).
 
+## Code in Action
+
+Click on the following link to see the Code in Action:
+
+[Click here to view the videos](http://bit.ly/2M3QVrl)
+
 ### Related products
 * Qt5 Python GUI Programming Cookbook [[Packt]](https://www.packtpub.com/application-development/qt5-python-gui-programming-cookbook?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/B079S4Q9T2)
 
