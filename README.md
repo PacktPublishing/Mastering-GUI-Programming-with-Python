@@ -62,9 +62,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 ## Code in Action
 
-Click on the following link to see the Code in Action:
-
-[Click here to view the videos](http://bit.ly/2M3QVrl)
+Click on the following link to see the Code in Action:[Click here to view the videos](http://bit.ly/2M3QVrl)
 
 ### Related products
 * Qt5 Python GUI Programming Cookbook [[Packt]](https://www.packtpub.com/application-development/qt5-python-gui-programming-cookbook?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/B079S4Q9T2)
