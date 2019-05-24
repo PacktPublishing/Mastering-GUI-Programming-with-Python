@@ -1,8 +1,8 @@
-# Python GUI programming with Tkinter
+# Mastering GUI Programming with Python
 
-<a href="https://www.packtpub.com/application-development/python-gui-programming-tkinter?utm_source=github&utm_medium=repository&utm_campaign="><img src="" alt="Python GUI programming with Tkinter" height="256px" align="right"></a>
+<packt link><img src="" alt="Mastering GUI Programming with Python" height="256px" align="right"></a>
 
-This is the code repository for [Python GUI programming with Tkinter](https://www.packtpub.com/application-development/python-gui-programming-tkinter?utm_source=github&utm_medium=repository&utm_campaign=), published by Packt.
+This is the code repository for [Mastering GUI Programming with Python](packt link), published by Packt.
 
 **Develop impressive cross-platform GUI applications with PyQt**
 
