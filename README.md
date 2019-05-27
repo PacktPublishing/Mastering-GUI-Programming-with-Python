@@ -9,9 +9,6 @@ This is the code repository for [Mastering GUI Programming with Python](packt li
 ## What is this book about?
 PyQt5 has long been the most powerful and comprehensive GUI framework available for Python, yet there is a lack of cohesive resources available to teach Python programmers how to use it. This book aims to remedy the problem by providing comprehensive coverage of GUI development with PyQt5. 
 
-You will get started with an introduction to PyQt5, before going on to develop stunning GUIs with modern features. You will then learn how to build forms using QWidgets and learn about important aspects of GUI development such as layouts, size policies, and event-driven programming. Moving ahead, you’ll discover PyQt5’s most powerful features through chapters on audio-visual programming with QtMultimedia, database-driven software with QtSQL, and web browsing with QtWebEngine. Next, in-depth coverage of multithreading and asynchronous programming will help you run tasks asynchronously and build high-concurrency processes with ease. In later chapters, you’ll gain insights into QOpenGLWidget, along with mastering techniques for creating 2D graphics with QPainter. You’ll also explore PyQt on a Raspberry Pi and interface it with remote systems using QtNetwork. Finally, you will learn how to distribute your applications using setuptools and PyInstaller.
-
-By the end of this book, you will have the skills you need to develop robust GUI applications using PyQt.
 
 This book covers the following exciting features:
 - Get to grips with the inner workings of PyQt5
