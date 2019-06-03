@@ -1,6 +1,6 @@
 # Mastering GUI Programming with Python
 
-<https://www.packtpub.com/application-development/mastering-gui-programming-python><img src="https://www.packtpub.com/application-development/mastering-gui-programming-python" alt="Mastering GUI Programming with Python" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/application-development/mastering-gui-programming-python"><img src="https://www.packtpub.com/application-development/mastering-gui-programming-python" alt="Mastering GUI Programming with Python" height="256px" align="right"></a>
 
 This is the code repository for [Mastering GUI Programming with Python](https://www.packtpub.com/application-development/mastering-gui-programming-python), published by Packt.
 
