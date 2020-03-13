@@ -85,7 +85,9 @@ class CsvTableModel(qtc.QAbstractTableModel):
 
     # method for saving
     def save_data(self):
-        with open(self.filename, 'w', encoding='utf-8') as fh:
+        # commented out code below to fix issue with additional lines being added after saving csv file from the window.
+        # with open(self.filename, 'w', encoding='utf-8') as fh:
+        with open(self.filename, 'w', newline='', encoding='utf-8') as fh:
             writer = csv.writer(fh)
             writer.writerow(self._headers)
             writer.writerows(self._data)
