@@ -152,8 +152,17 @@ class MainWindow(qtw.QMainWindow):
 
     def remove_rows(self):
         selected = self.tableview.selectedIndexes()
+        # Errata:  The book contains the following code:
+        #if selected:
+        #    self.model.removeRows(selected[0].row(), len(selected), None)
+
+        # This is incorrect, as len(selected) is the number of *cells* selected,
+        # not the number of *rows* selected.
+
+        # correct approach would look like this:
+        num_rows = len(set(index.row() for index in selected))
         if selected:
-            self.model.removeRows(selected[0].row(), len(selected), None)
+            self.model.removeRows(selected[0].row(), num_rows, None)
 
 
 if __name__ == '__main__':
