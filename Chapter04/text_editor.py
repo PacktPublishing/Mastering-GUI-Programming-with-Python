@@ -269,7 +269,10 @@ class MainWindow(qtw.QMainWindow): # change to mainwindow
                 with open(filename, 'r') as fh:
                     self.textedit.setText(fh.read())
             except Exception as e:
-                qtw.QMessageBox.critical(f"Could not load file: {e}")
+                # Errata:  Book contains the following line:
+                #qtw.QMessageBox.critical(f"Could not load file: {e}")
+                # It should read like this:
+                qtw.QMessageBox.critical(self, f"Could not load file: {e}")
 
     def saveFile(self):
         filename, _ = qtw.QFileDialog.getSaveFileName(
@@ -283,7 +286,10 @@ class MainWindow(qtw.QMainWindow): # change to mainwindow
                 with open(filename, 'w') as fh:
                     fh.write(self.textedit.toPlainText())
             except Exception as e:
-                qtw.QMessageBox.critical(f"Could not save file: {e}")
+                # Errata:  Book contains this line:
+                #qtw.QMessageBox.critical(f"Could not save file: {e}")
+                # It should read like this:
+                qtw.QMessageBox.critical(self, f"Could not load file: {e}")
 
     def set_font(self):
         current = self.textedit.currentFont()
