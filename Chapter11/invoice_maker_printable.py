@@ -259,8 +259,14 @@ class MainWindow(qtw.QMainWindow):
         self.preview.document().print(self.printer)
 
     def print_dialog(self):
-        self._print_document()
+        # Errata:  the book contained this line:
+        #self._print_document()
+        # As noted by DevinLand in issue #8, this can cause the document to start printing.
         dialog = qtps.QPrintDialog(self.printer, self)
+
+        # Instead we'll add this line, so _print_document is triggered when the dialog is
+        # accepted:
+        dialog.accepted.connect(self._print_document)
         dialog.exec()
         self._update_preview_size()
 
