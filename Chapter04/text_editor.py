@@ -94,7 +94,10 @@ class MainWindow(qtw.QMainWindow): # change to mainwindow
         file_menu.addSeparator()
 
         # add an action with a callback
-        quit_action = file_menu.addAction('Quit', self.destroy)
+        # Errata:  The book contains this line:
+        #quit_action = file_menu.addAction('Quit', self.destroy)
+        # It should call self.close instead, like so:
+        quit_action = file_menu.addAction('Quit', self.close)
 
         # connect to a Qt Slot
         edit_menu.addAction('Undo', self.textedit.undo)

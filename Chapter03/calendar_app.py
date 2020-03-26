@@ -27,7 +27,10 @@ class CategoryWindow(qtw.QWidget):
         self.layout().addWidget(self.submit_btn)
         self.cancel_btn = qtw.QPushButton(
             'Cancel',
-            clicked=self.destroy
+            # Errata:  The book contains this line:
+            #clicked=self.destroy
+            # It should call self.close instead, like so:
+            clicked=self.close
             )
         self.layout().addWidget(self.cancel_btn)
         self.show()
