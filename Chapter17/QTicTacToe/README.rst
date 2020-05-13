@@ -14,7 +14,7 @@ This is the classic game of **tic-tac-toe**, also known as noughts and crosses. 
 Usage
 =====
 
-Simply run `python qtictactoe.py` from within the project folder.
+Simply run `python run.py` from within the project folder.
 
 - Players take turns clicking the mouse on the playing field to mark squares.
 - When one player gets 3 in a row, they win.
