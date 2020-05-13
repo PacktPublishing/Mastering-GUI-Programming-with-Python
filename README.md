@@ -61,6 +61,12 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 Click on the following link to see the Code in Action: [Click here to view the videos](http://bit.ly/2M3QVrl)
 
+## Errata
+
+Page 77: The section of code that describes the "on_category_change" method:
+* Line 3 reads, "dialog = CategoryWindow()", it should read, "self.dialog = CategoryWindow()"
+* Line 4 reads, "dialog.submitted.connect(self.add_category)", it should read, "self.dialog.submitted.connect(self.add_category)"
+
 ### Related products
 * Qt5 Python GUI Programming Cookbook [[Packt]](https://www.packtpub.com/application-development/qt5-python-gui-programming-cookbook?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/B079S4Q9T2)
 
