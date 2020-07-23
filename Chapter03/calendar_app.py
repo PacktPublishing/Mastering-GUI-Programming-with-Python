@@ -146,6 +146,11 @@ class MainWindow(qtw.QWidget):
         self.event_detail.setPlainText('')
 
     def populate_list(self):
+        # As reported by github user eramey16, we need the following line
+        # to unselect list items since the selected index may not exist
+        # in the new list.  This line is not in the book code.
+        self.event_list.setCurrentRow(-1)
+
         self.event_list.clear()
         self.clear_form()
         date = self.calendar.selectedDate()
