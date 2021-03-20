@@ -33,6 +33,7 @@ class CategoryWindow(qtw.QWidget):
             clicked=self.close
             )
         self.layout().addWidget(self.cancel_btn)
+        self.setWindowModality(qtc.Qt.ApplicationModal)
         self.show()
 
     @qtc.pyqtSlot()
