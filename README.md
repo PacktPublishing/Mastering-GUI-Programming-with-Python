@@ -67,6 +67,12 @@ Page 77: The section of code that describes the "on_category_change" method:
 * Line 3 reads, "dialog = CategoryWindow()", it should read, "self.dialog = CategoryWindow()"
 * Line 4 reads, "dialog.submitted.connect(self.add_category)", it should read, "self.dialog.submitted.connect(self.add_category)"
 
+Page 418: 
+* Here is the ```=__init__()``` method _should be_ Here is the ```__init__()``` method
+
+Page 419: 
+* The ```mousePressEvent())``` method is called _should be_ The ```mousePressEvent()``` method is called
+
 ### Related products
 * Qt5 Python GUI Programming Cookbook [[Packt]](https://www.packtpub.com/application-development/qt5-python-gui-programming-cookbook?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/B079S4Q9T2)
 
